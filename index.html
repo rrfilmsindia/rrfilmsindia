@@ -1,121 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
+<title>RR Films India Pvt Ltd</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RR Films India | Digital Music Label</title>
 
 <style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #111;
-    color: #f5f5f5;
-    body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #0f0f0f, #1c1c1c, #111);
-  color: white;
+body{
+margin:0;
+font-family:Arial;
+background:#f4f4f4;
+color:#111;
 }
 
-h2 {
-  font-size: 32px;
-  margin-bottom: 30px;
-  position: relative;
+header{
+background:#000;
+color:white;
+padding:20px 10%;
+display:flex;
+justify-content:space-between;
+align-items:center;
 }
 
-h2::after {
-  content: "";
-  width: 60px;
-  height: 3px;
-  background: red;
-  display: block;
-  margin-top: 8px;
-}section {
-  padding: 60px 10%;
+header a{
+color:white;
+text-decoration:none;
+margin-left:20px;
 }
 
-.service-card {
-  background: #1a1a1a;
-  border-radius: 12px;
-  padding: 25px;
-  transition: 0.3s;
+.hero{
+background:linear-gradient(135deg,#8B0000,#000);
+color:white;
+text-align:center;
+padding:100px 20px;
 }
 
-.service-card:hover {
-  transform: translateY(-5px);
-  background: #222;
-}
+.hero h1{
+font-size:40px;
 }
 
-header {
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-    url('https://images.unsplash.com/photo-1511379938547-c1f69419868d');
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    padding: 120px 20px;
+.section{
+padding:60px 10%;
+text-align:center;
 }
 
-header h1 {
-    font-size: 48px;
-    color: #ffffff;
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+margin-top:40px;
 }
 
-header p {
-    font-size: 20px;
-    margin-top: 10px;
+.card{
+background:white;
+padding:30px;
+width:280px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+transition:0.3s;
 }
 
-.btn {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 12px 25px;
-    background-color: #8B0000;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
+.card:hover{
+transform:translateY(-5px);
 }
 
-section {
-    padding: 60px 20px;
-    text-align: center;
+.card h3{
+color:#8B0000;
 }
 
-.section-dark {
-    background-color: #1a1a1a;
+.card a{
+display:inline-block;
+margin-top:15px;
+padding:10px 20px;
+background:#8B0000;
+color:white;
+text-decoration:none;
+border-radius:5px;
 }
 
-.services {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.card {
-    background: #222;
-    padding: 30px;
-    width: 260px;
-    border-radius: 8px;
-}
-
-.card h3 {
-    color: #ff1a1a;
-}
-
-.stats {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 40px;
-    font-size: 22px;
-}
-
-footer {
-    background: #000;
-    padding: 20px;
-    text-align: center;
+footer{
+background:#000;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:50px;
 }
 </style>
 </head>
@@ -123,158 +91,51 @@ footer {
 <body>
 
 <header>
-<h1>Powering Regional Music</h1>
-<p>RR Films India – Digital Music Label & Distribution Partner from Bihar</p>
-<a href="https://youtube.com/@rrfilmindia" class="btn">Visit YouTube</a>
+<h2>RR Films India Pvt Ltd</h2>
+<div>
+<a href="index.html">Home</a>
+<a href="contact.html">Contact</a>
+</div>
 </header>
 
-<section>
-<h2>Who We Are</h2>
-<p>RR Films India is an independent digital music label based in Gaya, Bihar.
-We produce, distribute and promote Bhojpuri, Magahi & Hindi music across major streaming platforms.</p>
-</section>
+<div class="hero">
+<h1>Powering Regional Music Worldwide</h1>
+<p>Digital Music Label & Distribution Company</p>
+</div>
 
-<section class="section-dark">
+<div class="section">
 <h2>Our Services</h2>
 
-<div class="services">
+<div class="cards">
 
 <div class="card">
 <h3>Digital Distribution</h3>
 <p>Release your music on YouTube Music, Spotify, Apple Music and more.</p>
+<a href="distribution.html">Read More</a>
 </div>
 
 <div class="card">
 <h3>Music Production</h3>
 <p>4K music video production, cinematic editing and professional thumbnails.</p>
+<a href="production.html">Read More</a>
 </div>
 
 <div class="card">
 <h3>Digital Promotion</h3>
 <p>YouTube SEO, Shorts strategy and social media growth campaigns.</p>
-</div>
-
-<div class="card">
-<h3>Copyright Management</h3>
-<p>Content ID setup, copyright protection and dispute handling.</p>
+<a href="promotion.html">Read More</a>
 </div>
 
 </div>
-</section>
-
-<section>
-<h2>Our Reach</h2>
-<div class="stats">
-<div>50+ Songs Released</div>
-<div>900K+ Subscribers</div>
-<div>50M+ Total Views</div>
-<div>25+ Artist Collaborations</div>
 </div>
-</section>
-
-<section class="section-dark">
-<h2><section style="padding:80px 10%; background:linear-gradient(135deg,#1c1c1c,#2a2a2a); color:white;">
-
-<h2 style="text-align:center; font-size:36px; margin-bottom:60px;">
-  Get In Touch
-</h2>
-
-<div style="display:flex; flex-wrap:wrap; gap:60px; align-items:flex-start;">
-
-  <!-- LEFT SIDE -->
-  <div style="flex:1; min-width:300px;">
-    <h3 style="margin-bottom:25px; font-size:22px;">RR Films India</h3>
-
-    <p><strong>Founder:</strong> Vishal Kumar</p>
-    <p><strong>Location:</strong> Gaya Ji, Bihar, India</p>
-    <p><strong>Phone:</strong> 6374347592</p>
-    <p><strong>Email:</strong> rrfilmsindia@gmail.com</p>
-
-    <p style="margin-top:20px; opacity:0.8;">
-      We distribute Bhojpuri, Magahi & Hindi music worldwide.
-      Artists & Labels can contact us for digital distribution.
-    </p>
-  </div>
-
-  <!-- RIGHT SIDE FORM -->
-  <div style="flex:1; min-width:300px;">
-
-    <form>
-
-      <input type="text" placeholder="Artist / Label Name"
-      style="width:100%; padding:12px; margin-bottom:15px; border-radius:6px; border:none;">
-
-      <input type="text" placeholder="Contact Number"
-      style="width:100%; padding:12px; margin-bottom:15px; border-radius:6px; border:none;">
-
-      <input type="email" placeholder="Email Address"
-      style="width:100%; padding:12px; margin-bottom:15px; border-radius:6px; border:none;">
-
-      <input type="text" placeholder="YouTube Channel Link"
-      style="width:100%; padding:12px; margin-bottom:20px; border-radius:6px; border:none;">
-
-      <button style="background:#ff0000; color:white; padding:12px 30px; border:none; border-radius:6px; font-size:16px; cursor:pointer;">
-        Submit
-      </button>
-
-    </form>
-
-  </div>
-
-</div>
-
-</section>
-    <!-- LEFT SIDE INFO -->
-    <div style="flex:1; min-width:300px;">
-      <h3 style="margin-bottom:20px;">RR Films India</h3>
-
-      <p><strong>Founder:</strong> Vishal Kumar</p>
-      <p><strong>Location:</strong> Gaya Ji, Bihar, India</p>
-      <p><strong>Phone:</strong> 6374347592</p>
-      <p><strong>Email:</strong> rrfilmsindia@gmail.com</p>
-
-      <p style="margin-top:20px;">
-        We distribute Bhojpuri, Magahi & Hindi music worldwide.
-        Artists & Labels can contact us for digital distribution.
-      </p>
-    </div>
-
-    <!-- RIGHT SIDE FORM -->
-    <div style="flex:1; min-width:300px;">
-      <h3 style="margin-bottom:20px;">Get In Touch</h3>
-
-      <form>
-        <input type="text" placeholder="Artist / Label Name" 
-        style="width:100%; padding:10px; margin-bottom:15px; border:none; border-radius:5px;">
-
-        <input type="text" placeholder="Contact Number" 
-        style="width:100%; padding:10px; margin-bottom:15px; border:none; border-radius:5px;">
-
-        <input type="email" placeholder="Email Address" 
-        style="width:100%; padding:10px; margin-bottom:15px; border:none; border-radius:5px;">
-
-        <input type="text" placeholder="YouTube Channel Link" 
-        style="width:100%; padding:10px; margin-bottom:15px; border:none; border-radius:5px;">
-
-        <button style="background:#ff0000; color:white; padding:12px 25px; border:none; border-radius:5px; font-size:16px;">
-          Submit
-        </button>
-      </form>
-    </div>
-
-  </div>
-</section>
-<p>📍 Gaya Ji, Bihar</p>
-<p>📞 6374347592</p>
-<p>🎥 YouTube: @rrfilmindia</p>
-</section
-    <iframe 
-src="https://maps.google.com/maps?q=Gaya%20Bihar&t=&z=13&ie=UTF8&iwloc=&output=embed"
-width="100%" height="300" style="border:0; margin-top:40px;">
-</iframe>
 
 <footer>
-© 2026 RR Films India | All Rights Reserved
+<p>© 2026 RR Films India Pvt Ltd</p>
+<p>
+<a href="https://youtube.com/@rrfilmindia" target="_blank">YouTube</a> |
+<a href="https://instagram.com/" target="_blank">Instagram</a> |
+<a href="https://facebook.com/" target="_blank">Facebook</a>
+</p>
 </footer>
 
 </body>
