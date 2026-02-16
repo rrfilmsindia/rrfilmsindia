@@ -1,0 +1,103 @@
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#f4f4f4;
+color:#111;
+}
+
+header{
+background:#000;
+color:white;
+padding:20px 10%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+header a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.hero{
+position:relative;
+height:80vh;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+text-align:center;
+overflow:hidden;
+}
+
+.hero video{
+position:absolute;
+width:100%;
+height:100%;
+object-fit:cover;
+z-index:-1;
+}
+
+.hero h1{
+font-size:45px;
+}
+
+.section{
+padding:80px 10%;
+text-align:center;
+}
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+margin-top:40px;
+}
+
+.card{
+background:white;
+padding:30px;
+width:280px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+color:#8B0000;
+}
+
+.card a{
+display:inline-block;
+margin-top:15px;
+padding:10px 20px;
+background:#8B0000;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+.gallery{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+justify-content:center;
+}
+
+.gallery img{
+width:300px;
+border-radius:10px;
+}
+
+footer{
+background:#000;
+color:white;
+text-align:center;
+padding:30px;
+}
